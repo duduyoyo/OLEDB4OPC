@@ -17,6 +17,9 @@ CREATE TABLE [dbo].[OPCDA](<p></p>
 4. Install an OPC DA server in the same box.<p></p>
 5. To run as a 64-bit application you need register 64-bit proxy dlls first from command line, like "C:\Windows\System32\regsvr32 x64Proxy\opccomn_ps.dll" and "C:\Windows\System32\regsvr32 x64Proxy\opcproxy.dll"<p></p>
 
+<h2>Compile and run</h2>
+This console project is compiled and run under 64-bit debug mode for Visual Studio 2022.<p></p>
+
 <h2>Console output</h2>
 <img src="https://github.com/duduyoyo/OLEDB4OPC/assets/13662339/3908cc99-adbb-444f-8174-30309b14b08e" width=70%>
 
