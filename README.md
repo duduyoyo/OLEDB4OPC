@@ -23,3 +23,6 @@ This console project is compiled and run under 64-bit debug mode for Visual Stud
 <h2>Console output</h2>
 <img src="https://github.com/duduyoyo/OLEDB4OPC/assets/13662339/3908cc99-adbb-444f-8174-30309b14b08e" width=70%>
 
+<h2>Related contribution</h2>
+<a href="https://github.com/duduyoyo/WebSocket4OPC">WebSocket4OPC</a>, a renovative approach to access plant data anyway and anywhere!
+
