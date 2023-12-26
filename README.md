@@ -13,7 +13,7 @@ CREATE TABLE [dbo].[OPCDA](<p></p>
 [Time] [datetime] NOT NULL,<p></p>
 [Quality] [tinyint] NOT NULL<p></p>
 );<p></p>
-3. Double click OPC.udl to establish a database connection to SQL Server. Only leave minimum attributions to satisfy backward compatibility need as already shown in this file.<p></p>
+3. Double click OPC.udl to establish a database connection to SQL Server. Only leave minimum attributes to satisfy backward compatibility need as already shown in this file.<p></p>
 4. Install an OPC DA server in the same box.<p></p>
 5. To run as a 64-bit application you need register 64-bit proxy dlls first from command line, like "C:\Windows\System32\regsvr32 x64Proxy\opccomn_ps.dll" and "C:\Windows\System32\regsvr32 x64Proxy\opcproxy.dll"<p></p>
 
