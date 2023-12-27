@@ -78,14 +78,6 @@ public:
 	{
 		CCommand<CManualAccessor> command;
 
-
-		HRESULT hr = command.CreateAccessor(0, nullptr, 0);
-
-		if (FAILED(hr)) {
-			printf("command.CreateAccessor() failed");
-			return hr;
-		}
-
 		CComVariant vVariant[4];
 
 		vVariant[0].vt = VT_BSTR;
@@ -93,7 +85,7 @@ public:
 		vVariant[2].vt = VT_DATE;
 		vVariant[3].vt = VT_UINT;
 
-		hr = command.CreateParameterAccessor(4, vVariant, sizeof vVariant); 
+		HRESULT hr = command.CreateParameterAccessor(4, vVariant, sizeof vVariant);
 
 		if (FAILED(hr)) {
 			printf("command.CreateParameterAccessor() failed");
