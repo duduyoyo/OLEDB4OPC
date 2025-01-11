@@ -24,5 +24,5 @@ This console project is compiled and run under 64-bit debug mode for Visual Stud
 <img src="https://github.com/duduyoyo/OLEDB4OPC/assets/13662339/3908cc99-adbb-444f-8174-30309b14b08e" width=70%>
 
 <h2>Related contribution</h2>
-<a href="https://github.com/duduyoyo/WebSocket4OPC">WebSocket4OPC</a>, a modern approach to access plant data anywhere and any way!
+<a href="https://github.com/duduyoyo/WebSocket4OPC">WebSocket4OPC</a>, a modern approach to access plant data anywhere and any way!<p>
 <a href="https://github.com/duduyoyo/WebSocket4Fragment">WebSocket4Fragment</a>, a unique way to handle WebSocket fragment explicitly in run time!
